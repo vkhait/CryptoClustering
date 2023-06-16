@@ -36,7 +36,10 @@ Color the graph points with the labels found using K-means.
 Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 Optimize Clusters with Principal Component Analysis
 
-Using the original scaled DataFrame, perform a PCA and reduce the features to three principal components.
+<img width="787" alt="Screenshot 2023-06-16 at 20 05 12" src="https://github.com/vkhait/CryptoClustering/assets/121869014/45e303bd-5a84-466b-b336-dd76cb0fc07d">
+
+
+* Using the original scaled DataFrame, perform a PCA and reduce the features to three principal components.
 Retrieve the explained variance to determine how much information can be attributed to each principal component and then answer the following question in your notebook:
 What is the total explained variance of the three principal components?
 Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
@@ -65,6 +68,10 @@ Create a scatter plot using hvPlot as follows:
 Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
 Color the graph points with the labels found using K-means.
 Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
+
+
+<img width="854" alt="Screenshot 2023-06-16 at 20 05 21" src="https://github.com/vkhait/CryptoClustering/assets/121869014/af8c17ba-519b-47a9-b561-8a05194dda4f">
+
 
 * Answer the following question:
 What is the impact of using fewer features to cluster the data using K-Means?
